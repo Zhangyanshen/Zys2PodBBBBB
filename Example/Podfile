@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Zys2PodBBBBB_Example' do
+  pod 'Zys2PodBBBBB', :path => '../'
+
+  target 'Zys2PodBBBBB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
